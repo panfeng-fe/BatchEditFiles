@@ -24,7 +24,7 @@ func find[T comparable](arr []T, target T) bool {
 	return false
 }
 
-var wihteList = []string{"go.mod", "main.go", "main.exe"}
+var wihteList = []string{"go.mod", "main.go", "main.exe", "main", "README.md", ".git", ".", ".."}
 
 func main() {
 	var format string
